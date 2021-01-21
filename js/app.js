@@ -3,10 +3,10 @@ let img = document.querySelector('.img-main');
 var texto = document.getElementById('title-main')
 
 function changeImg(){
-    if(img.src.match('/semana-01/Projeto-semana-01/img/Aristotle.jpg')){
-        img.src = '/semana-01/Projeto-semana-01/img/AristotleMain.jpg'
+    if(img.src.match('./img/Aristotle.jpg')){
+        img.src = './img/AristotleMain.jpg'
     }else {
-        img.src = '/semana-01/Projeto-semana-01/img/Aristotle.jpg'
+        img.src = './img/Aristotle.jpg'
     }
 }
 
